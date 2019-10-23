@@ -1,24 +1,36 @@
+
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NavBar from './components/navbar/navbar';
+
+
+import pancake from './images/pancake.jpg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <NavBar />
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={pancake} className="App-logo" alt="pancake" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Welcome to staKC, the one stop shop for new developers trying to break into the industry in Kansas City 
         </p>
         <a
           className="App-link"
+         
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+         Log In 
+        <br></br>
+        link still goes to react
         </a>
       </header>
+  
     </div>
   );
 }
