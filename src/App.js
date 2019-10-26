@@ -15,7 +15,7 @@ function App() {
         <img src={pancake} className="App-logo" alt="pancake" />
        
         <p>
-          Welcome to StacKC, the one stop shop for new developers trying to break into the industry in Kansas City 
+          Welcome to StaKC, the one stop shop for new developers trying to break into the industry in Kansas City 
         </p>
         
         <a
