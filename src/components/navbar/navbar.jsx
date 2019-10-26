@@ -49,8 +49,8 @@ const NavBar = props =>{
     </ul>
 
     <form className="form-inline my-2 my-lg-0">
-      <input className="form-control mr-sm-2" type="search" placeholder="Search by key word(s)" aria-label="Search"/>
-      <input className="form-control mr-sm-2" type="search" placeholder=" KC Search by location" aria-label="Search"/>
+      <input id="key-word-input" className="form-control mr-sm-2" type="search" placeholder="Search by key word(s)" aria-label="Search"/>
+      <input id="location-input" className="form-control mr-sm-2" type="search" placeholder=" KC Search by location" aria-label="Search"/>
       <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form>
   </div>
