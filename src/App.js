@@ -1,12 +1,9 @@
 
 import React from 'react';
 // import logo from './logo.svg';
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './components/navbar/navbar';
-
-
-import pancake from './images/pancake.jpg';
+import pancake from './images/8bitPC.jpg';
 import './App.css';
 
 function App() {
@@ -14,10 +11,13 @@ function App() {
     <div className="App">
       <NavBar />
       <header className="App-header">
+      
         <img src={pancake} className="App-logo" alt="pancake" />
+       
         <p>
-          Welcome to staKC, the one stop shop for new developers trying to break into the industry in Kansas City 
+          Welcome to StaKC, the one stop shop for new developers trying to break into the industry in Kansas City 
         </p>
+        
         <a
           className="App-link"
          
