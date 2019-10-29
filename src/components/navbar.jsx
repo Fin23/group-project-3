@@ -1,6 +1,6 @@
 import React  from 'react';
-
-import './navbar.css';
+import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
+import '../css/navbar.css';
 
 
 const NavBar = props =>{
@@ -9,17 +9,21 @@ const NavBar = props =>{
     return ( 
         // 
 
-<nav  className="navbar navbar-expand-lg navbar-light">
-  <a className="navbar-brand" href="#">Navbar</a>
-  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span className="navbar-toggler-icon"></span>
+<nav  
+className="navbar navbar-expand-lg navbar-light">
+  <Link to ="/" className="navbar-brand" href="#">StaKC</Link>
+  <button className="navbar-toggler" type="button"data-toggle="collapse" data-target="#navbarSupportedContent" 
+  aria-controls="navbarSupportedContent" aria-expanded="false" 
+  aria-label="Toggle navigation">
+    <span className="navbar-toggler-icon">
+    </span>
   </button>
 
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav mr-auto">
 
       <li className="nav-item active">
-        <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
+        <Link to ="/profile" className="nav-link">Home  Profile</Link> <span className="sr-only">(current)</span>
       </li>
 
       <li className="nav-item">
