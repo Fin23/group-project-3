@@ -3,7 +3,8 @@ import React from 'react';
 // import logo from './logo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './navbar';
-import pancake from '../images/8bitPC.jpg';  
+import pancake from '../images/8bitPC.jpg'; 
+import Login from './oauth';
 
 import '../css/App.css';
 
@@ -26,9 +27,18 @@ class App extends React.Component {
           link still goes to react
           </a>
         </header>
-    
+
+      
+
+
+  <Login />
+ 
+
+
       </div>
   
+
+ 
  
   );
   }
