@@ -1,6 +1,7 @@
 
 var cheerio = require("cheerio");
 var axios = require("axios");
+const Jobs = require("./models")
 
 // First, tell the console what server3.js is doing
 console.log("\n******************************************\n" +
