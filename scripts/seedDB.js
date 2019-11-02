@@ -5,7 +5,7 @@ const db = require("./models");
 
 mongoose.connect(
   process.env.MONGODB_URI ||
-  "mongodb://localhost/StaKC"
+  "mongodb://localhost/joblistings"
 );
 
 const JobSeed = [
@@ -23,7 +23,7 @@ const JobSeed = [
 
 ];
 
-db.Job
+db.Jobs
   .remove({})
   .then(() => db.Job.collection.insertMany(JobSeed))
   .then(data => {
