@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+nav{
+    background-color: skyblue;
+    font-family:'Press Start 2P', cursive;
+    font-size: 10px;
+}
+
+li:hover{
+    background-color:pink;
+}
+.form-control{
+font-size:10px;
+}

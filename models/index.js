@@ -2,6 +2,4 @@
 
 module.exports = {
   Jobs: require("./Jobs"),
-  About: require("./About"),
-  SaveJob: require("./SaveJob")
 };
