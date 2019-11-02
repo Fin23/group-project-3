@@ -1,7 +1,9 @@
 const router = require("express").Router();
 const jobRoutes = require("./jobs");
+const profileRoutes = require("./profile")
 
-// Book routes
+// Job routes
 router.use("/jobs", jobRoutes);
+router.use("/profile", profileRoutes);
 
 module.exports = router;

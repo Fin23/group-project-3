@@ -1,7 +1,7 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Route, Link, BrowserRouter as Router } from "react-router-dom";
+import { Route, Link, BrowserRouter as Router} from "react-router-dom";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import $ from 'jquery';
@@ -10,23 +10,23 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 import './css/index.css';
 
-import App from './App';
-import Profile from './userProfile';
-
+import App from './components/App';
+import Profile from './components/userProfile';
+import NavBar from './components/navbar';
 
 import * as serviceWorker from './serviceWorker';
 
 const routing = (
-  <Router>
-    <div>
-      <Route exact path="/" component={App} />
-      <Route path="/profile" component={Profile} />
-      {/* <Route path="/contact" component={Contact} /> */}
-    </div>
-  </Router>
-)
+    <Router>
+      <div>
+        <Route exact path="/" component={App} />
+        <Route path="/profile" component={Profile} />
+        {/* <Route path="/contact" component={Contact} /> */}
+      </div>
+    </Router>
+  )
 
-{/* <App /> */ }
+{/* <App /> */}
 
 ReactDOM.render(routing, document.getElementById('root'));
 
