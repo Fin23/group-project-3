@@ -33,16 +33,15 @@ class App extends React.Component {
             href="https://reactjs.org"
             target="_blank"
             rel="noopener noreferrer">
-           Log In 
-          <br></br>
-          link still goes to react
+              <Login />
+         
           </a>
         </header>
 
       
 
 
-  <Login />
+  
  
 
 
