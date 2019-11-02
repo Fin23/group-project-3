@@ -12,7 +12,7 @@ import './css/index.css';
 
 import App from './components/App';
 import Profile from './components/userProfile';
-import NavBar from './components/navbar';
+
 
 import * as serviceWorker from './serviceWorker';
 

@@ -1,8 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
-
+/* body{
+  background-color:#282c34;
+} */
 
 .App {
   text-align: center;
+
+}
+.pic{
+  height:65%;
+  width:26%;
+  border-radius: 50%;
+  color:white;
+  background-color:#282c34;
+  font-family:'Press Start 2P', cursive;
+  /* margin-left:45%;
+  margin-top:8%; */
+}
+.row{
+  color:white;
+  background-color:#282c34;
+  font-family:'Press Start 2P', cursive;
 }
 
 .App-logo {
@@ -23,4 +41,157 @@
 
 .App-link {
   color: #09d3ac;
+}
+header{
+  /* border:solid; */
+}
+.rowA {
+	width: 100%;
+	height:700px;
+	clear: both; /* Clear creates new styles for the next row */
+	padding: 0px;
+  margin: 0px;
+
+  
+}
+.aboutYou {
+  object-fit: cover;
+height: 25%;
+width:95%;
+background: lightpink;
+margin-left: 3%;
+margin-top: 3%;
+border-radius:5%;
+color:white;
+background-color:#282c34;
+}
+.traits {
+  object-fit: cover;
+height: 5%;
+width:95%;
+background: lightpink;
+margin-left: 3%;
+margin-top: 3%;
+border-radius:5%;
+color:white;
+background-color:#282c34;
+}
+.contactInfo {
+  object-fit: cover;
+  color:white;
+  background-color:#282c34;
+width:95%;
+
+margin-left: 3%;
+margin-top: 3%;
+border-radius:5%;
+text-align: left;
+padding-left:8px;
+padding-bottom:8px;
+}
+/* middle column styles */
+.workExperience {
+  object-fit: cover;
+height: 25%;
+width:75%;
+color:white;
+background-color:#282c34;
+margin-left: 10%;
+margin-top: 3%;
+border-radius:5%;
+border:solid;
+text-align: left;
+text-align: left;
+padding-left:10px;
+padding-top:10px;
+
+}
+.Education {
+object-fit: cover;
+height: 25%;
+width:95%;
+color:white;
+background-color:#282c34;
+padding-left:10px;
+padding-top:10px;
+margin-left: 3%;
+margin-top: 3%;
+border-radius:5%;
+text-align: left;
+text-align: left;
+/* border:solid; */
+
+}
+.gitHubLink {
+  object-fit: cover;
+height: 10%;
+width:95%;
+color:white;
+background-color:#282c34;
+margin-left: 3%;
+margin-top: 3%;
+border-radius:5%;
+text-align: center;
+/* border:solid; */
+}
+.skills {
+  object-fit: cover;
+text-align: left;
+width:95%;
+color:white;
+background-color:#282c34;
+margin-left: 3%;
+margin-top: 3%;
+border-radius:5%;
+/* border:solid; */
+padding-left:8px;
+padding-bottom:8px;
+}
+/* end of middle */
+
+
+.files input {
+  outline: 2px dashed #92b0b3;
+  outline-offset: -10px;
+  -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
+  transition: outline-offset .15s ease-in-out, background-color .15s linear;
+  padding: 120px 0px 85px 35%;
+  text-align: center !important;
+  margin: 0;
+  width: 100% !important;
+}
+.files input:focus{     outline: 2px dashed #92b0b3;  outline-offset: -10px;
+  -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
+  transition: outline-offset .15s ease-in-out, background-color .15s linear; border:1px solid #92b0b3;
+}
+.files{ position:relative}
+.files:after {  pointer-events: none;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 50px;
+  right: 0;
+  height: 56px;
+  content: "";
+  background-image: url(https://image.flaticon.com/icons/png/128/109/109612.png);
+  display: block;
+  margin: 0 auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.color input{ background-color:#f1f1f1;}
+.files:before {
+  position: absolute;
+  bottom: 10px;
+  left: 0;  pointer-events: none;
+  width: 100%;
+  right: 0;
+  height: 57px;
+  content: " or drag it here. ";
+  display: block;
+  margin: 0 auto;
+  color: #2ea591;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: center;
 }

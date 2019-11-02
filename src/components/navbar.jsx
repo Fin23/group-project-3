@@ -1,6 +1,7 @@
 import React  from 'react';
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
 import '../css/navbar.css';
+import { StickyContainer, Sticky } from 'react-sticky';
 
 
 const NavBar = props =>{
@@ -9,8 +10,13 @@ const NavBar = props =>{
     return ( 
         // 
 
+
+ 
 <nav  
 className="navbar navbar-expand-lg navbar-light">
+
+
+
   <Link to ="/" className="navbar-brand" href="#">StaKC</Link>
   <button className="navbar-toggler" type="button"data-toggle="collapse" data-target="#navbarSupportedContent" 
   aria-controls="navbarSupportedContent" aria-expanded="false" 
@@ -52,16 +58,15 @@ className="navbar navbar-expand-lg navbar-light">
 
     </ul>
 
-    <form className="form-inline my-2 my-lg-0">
-      <input id="key-word-input" className="form-control mr-sm-2" type="search" placeholder="Search by key word(s)" aria-label="Search"/>
-      <input id="location-input" className="form-control mr-sm-2" type="search" placeholder=" KC Search by location" aria-label="Search"/>
-      <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
+    
   </div>
+
+  
+
 </nav>
 
 
-    
+
 
 
 
