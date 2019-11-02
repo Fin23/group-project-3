@@ -1,0 +1,150 @@
+/* creating rows and columns */
+
+/* Setting up our grid */
+
+.container {
+	width: 100%; /*Set the width of the entire website here */
+	margin-right: auto;
+	margin-left: auto; /* Margin-left and right are set to auto to center the container */
+}
+.seven:first-child,.eight:first-child, .nine:first-child, .ten:first-child,.eleven:first-child,.five:first-child, .four:first-child, .three:first-child, .two:first-child, .one:first-child, .six:first-child { 
+	margin-left: 0; /* This line of code makes the left-most column align to the left of the screen */
+}
+.eleven {
+	width: 91.5%;
+	float: left;
+	margin-left: 2%;
+}
+.ten {
+	width: 83%;
+	float: left;
+	margin-left: 2%;
+}
+.nine {
+	width: 74.5%;
+	float: left;
+	margin-left: 2%;
+}
+.eight {
+	width: 66%;
+	float: right;
+	margin-left: 2%;
+}
+
+.seven {
+	width: 57.5%;
+	float: left;
+	margin-left: 2%;
+}
+.six {
+	width: 49%; /* This div spans six columns (the entire row)*/
+	float: left;
+    margin-left: 2%;
+}
+.five {
+	width: 40.5%; /* This div spans five columns */
+	margin-left: 2%;
+	float:left;
+}
+.four {
+	width: 32%;
+	float:left;
+	margin-left: 2%;
+}
+.three {
+	width: 23.5%;
+	float:left;
+	margin-left: 2%;
+}
+.three2 {
+	float:left;
+    padding-left: 70px;
+}
+.two {
+	width: 15%;
+	float:left;
+	margin-left: 2%;
+}
+.one {
+	width: 6.5%;
+	float:left;
+	margin-left: 2%;
+}
+.row {
+	width: 100%;
+	height:1000px;
+	clear: both; /* Clear creates new styles for the next row */
+	padding: 0px;
+	margin: 0px;
+}
+/*additions to rows and columns */
+
+.hero-image-container {
+    object-fit: cover;
+	height: 50%;
+	width:90%;
+	background: lightblue;
+	margin-left: 5%;
+	margin-top: 3%;
+	border-radius:5%;
+	border:solid;
+}
+.content-image img {
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+    opacity: .7;
+}
+.content-image-container {
+    object-fit: cover;
+    height: 400px;
+    margin-top: 10px;
+    background: #76232f;
+    margin-bottom: 10px;
+}
+.content-3-columns {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.content-3-columns2 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.left-column-home {
+    background-color:#282c34;
+    height: 650px;
+    /* padding: 4px ;
+	opacity: .8;
+	float:left; */
+	width:33%;
+	text-align:center;
+	border-radius:3%;
+}
+.middle-column-home {
+	color:white;
+	background-color:#282c34;
+    height: 650px;
+    /* padding: 4px;
+	opacity: .8;
+	float:center; */
+	width:33%;
+	text-align:center;
+	border-radius:3%;
+}
+.right-column-home {
+    color:white;
+  background-color:#282c34;
+    height: 99%;
+    /* padding: 4px;
+	opacity: .8;
+	float:right; */
+	width:100%;
+	text-align:center;
+	border-radius:3%;
+}
+.right-column-row3 {
+ background: #d7cec7;
+ 
+}

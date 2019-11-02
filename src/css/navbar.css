@@ -4,6 +4,9 @@ nav{
     background-color: skyblue;
     font-family:'Press Start 2P', cursive;
     font-size: 10px;
+    /* position: -webkit-sticky;
+    position: sticky;
+    top: 0; */
 }
 
 li:hover{

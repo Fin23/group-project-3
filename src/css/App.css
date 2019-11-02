@@ -24,3 +24,10 @@
 .App-link {
   color: #09d3ac;
 }
+/* input for job seach */
+
+.form-control{
+  height: 60px;
+  width: 100px;
+
+}
