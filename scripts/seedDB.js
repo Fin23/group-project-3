@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const db = require("./models");
+const db = require("../models");
 
 // This file empties the Jobs collection and inserts the Jobs below
 
@@ -25,7 +25,7 @@ const JobSeed = [
 
 db.Jobs
   .remove({})
-  .then(() => db.Job.collection.insertMany(JobSeed))
+  .then(() => db.Jobs.collection.insertMany(JobSeed))
   .then(data => {
     console.log(data.result.n + " records inserted!");
     process.exit(0);
