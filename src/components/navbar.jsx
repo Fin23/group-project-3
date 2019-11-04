@@ -35,7 +35,13 @@ className="navbar navbar-expand-lg navbar-light">
 
       <li className="nav-item">
       <Link to ="/resources" className="nav-link">Learning Resources</Link> <span className="sr-only">(current)</span>
-        
+      </li>
+
+      <li className="nav-item">
+      <Link to ="/jobs" className="nav-link">Jobs Page</Link> <span className="sr-only">(current)</span>
+      </li>
+      <li className="nav-item">
+      <Link to ="/aboutus" className="nav-link">The Creators</Link> <span className="sr-only">(current)</span>
       </li>
 
 {/* drop down list for nav bar */}
