@@ -77,17 +77,25 @@
 	padding: 0px;
 	margin: 0px;
 }
+.row1 {
+	width: 50%;
+	height:10%;
+	clear: both; /* Clear creates new styles for the next row */
+	padding: 0px;
+	margin: 0px;
+	float:left;
+}
 /*additions to rows and columns */
 
 .hero-image-container {
     object-fit: cover;
 	height: 50%;
 	width:90%;
-	background: lightblue;
+	background-image:url("../images/darkbluebackground1.png");
 	margin-left: 5%;
 	margin-top: 3%;
 	border-radius:5%;
-	border:solid;
+	border:solid skyblue;
 }
 .content-image img {
     object-fit: cover;
@@ -124,14 +132,17 @@
 }
 .middle-column-home {
 	color:white;
-	background-color:#282c34;
-    height: 650px;
+	background-color:black;
+    height: 50%;
     /* padding: 4px;
 	opacity: .8;
 	float:center; */
 	width:33%;
 	text-align:center;
 	border-radius:3%;
+	float:center;
+	margin-left: 70%;
+	margin-top:15%;
 }
 .right-column-home {
     color:white;
@@ -143,6 +154,7 @@
 	width:100%;
 	text-align:center;
 	border-radius:3%;
+	
 }
 .right-column-row3 {
  background: #d7cec7;
