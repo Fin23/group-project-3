@@ -12,6 +12,7 @@ import './css/index.css';
 
 import App from './components/App';
 import Profile from './components/userProfile';
+import Resources from './components/resources';
 
 
 import * as serviceWorker from './serviceWorker';
@@ -21,7 +22,7 @@ const routing = (
       <div>
         <Route exact path="/" component={App} />
         <Route path="/profile" component={Profile} />
-        {/* <Route path="/contact" component={Contact} /> */}
+        <Route path="/resources" component={Resources} />
       </div>
     </Router>
   )

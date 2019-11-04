@@ -10,7 +10,12 @@ nav{
 }
 
 li:hover{
-    background-color:pink;
+    /* background-color:pink; */
+    font-size:2em;
+}
+li{
+    font-family: 'Raleway', sans-serif;
+    font-size:1.5em;
 }
 .form-control{
 font-size:10px;

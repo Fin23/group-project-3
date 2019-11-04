@@ -32,15 +32,14 @@ className="navbar navbar-expand-lg navbar-light">
         <Link to ="/profile" className="nav-link">Home  Profile</Link> <span className="sr-only">(current)</span>
       </li>
 
-      <li className="nav-item">
-        <a className="nav-link" href="#">Sign Up</a>
-      </li>
 
       <li className="nav-item">
-        <a className="nav-link" href="#">Job tip and recources</a>
+      <Link to ="/resources" className="nav-link">Learning Resources</Link> <span className="sr-only">(current)</span>
+        
       </li>
 
-      <li className="nav-item dropdown">
+{/* drop down list for nav bar */}
+      {/* <li className="nav-item dropdown">
         <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Dropdown
         </a>
@@ -50,11 +49,9 @@ className="navbar navbar-expand-lg navbar-light">
           <div className="dropdown-divider"></div>
           <a className="dropdown-item" href="#">Something else here</a>
         </div>
-      </li>
+      </li> */}
 
-      <li className="nav-item">
-        <a className="nav-link disabled" href="#">Disabled</a>
-      </li>
+    
 
     </ul>
 
