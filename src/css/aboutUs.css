@@ -1,0 +1,57 @@
+.about-row1 {
+	width: 50%;
+	height:10%;
+	clear: both; /* Clear creates new styles for the next row */
+	padding: 0px;
+	margin: 0px;
+	float:left;
+}
+/*additions to rows and columns */
+
+.about-hero-image-container {
+    object-fit: cover;
+	height: 35%;
+	width:40%;
+	background-image:url("../images/darkbluebackground1.png");
+	margin-left: 5%;
+	margin-top: 3%;
+	border-radius:5%;
+	border:solid skyblue;
+}
+
+.about-contact-home {
+	color:white;
+	background-color:black;
+    height: 50%;
+    /* padding: 4px;
+	opacity: .8;
+	float:center; */
+	width:33%;
+	text-align:center;
+	border-radius:3%;
+	float:center;
+	margin-left: 10%;
+	margin-top:15%;
+}
+
+.pic{
+    height:65%;
+    width:26%;
+    border-radius: 50%;
+    color:skyblue;
+    background-image:url("../images/sunSet.gif");
+    background-color:#282c34;
+    font-family:'Press Start 2P', cursive;
+    border:solid skyblue;
+}
+
+.aboutIcon{
+    text-align: center;
+    padding: 30% 10%;
+    margin: 65px;
+
+}
+.Name{
+    border-bottom:solid skyblue;
+    margin-bottom:5px;
+}

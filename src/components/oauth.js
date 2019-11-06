@@ -22,9 +22,8 @@ export default class Login extends Component{
     render() {
        return(
            <div>
-              <input type="text" placeholder="username"/>
-              <input type="text" placeholder="username"/> 
-              <button>Login</button>
+             
+             
               <GoogleLogin
                 clientId="483970821884-i4esrcldb2j4kdaai4rds8mos8mkskqe.apps.googleusercontent.com" //id gotten from Google
                 buttonText="Log in with Google"
