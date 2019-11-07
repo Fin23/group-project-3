@@ -6,8 +6,7 @@ import '../css/userP.css';
 import '../css/grid.css';
 import link from '../images/link.png';
 import axios from 'axios';
-import $ from 'jquery';
-import Popper from 'popper.js';
+
 
 
 class Profile extends React.Component {
@@ -24,15 +23,38 @@ class Profile extends React.Component {
             <div className="contact-home">
               <div className="contactInfo"> 
               
+
+              <fieldset>
+    <legend>Profile</legend>
                 <div className="Name"> 
-                  Name: Link 
+                  Name: Link Link
                   </div>
+                  <form action="/action_page.php" />
+                    First name:
+                 <input type="text" name="firstname" value=" " />
+                 <br></br>
+                 Last name:
+                  <input type="text" name="lastname" value=" " />
+                
+                  
+                  
                 <div className = "Email">
-                  Email: OcarianMaster23@gmail.com 
+                   OcarianMaster23@gmail.com 
+                  {/* E-mail: <input type="email" name="emailaddress"></input> */}
                   </div>
+                  E-mail: 
+                  <br></br>
+                  <input type="email" name="emailaddress" />
                 <div className="Name">
-                  Phone Number: (481)-516-2342 
+                   (481)-516-2342 
+                
                   </div>
+                  Phone Number:
+                  <input type="tel" id="phone" name="phone"
+       pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+       required></input>
+                  <input type="submit" value="SAVE" />
+                  </fieldset>
                 <a href="https://github.com/Fin23/group-project-3">  
                   <section className="icon-list">
                     <i className="nes-icon github is-large"></i>
@@ -41,6 +63,7 @@ class Profile extends React.Component {
                           <i className="nes-icon gmail is-large"></i>
                             </section>
                             </a>
+                          
                             </div>
                             </div>
                             </div>
@@ -49,7 +72,7 @@ class Profile extends React.Component {
           <div className="pic">
             <img src={link} className="profilePic" alt="profilePic" />
             </div>
-          <input 
+          {/* <input 
             style={{display: 'none'}} 
               type="file"  
                 onChange={this.fileSelectedHandler} 
@@ -59,13 +82,13 @@ class Profile extends React.Component {
                     </button>
                   <button onClick={this.fileUploadHandler}>
                     Upload
-                    </button>
+                    </button> */}
             </div>
 
-{/* paragraph button dropdown  */}
+{/* paragraph button dropdown   -toggle */}
 <button className="item dropdown">
-  <p className="link dropdown-toggle" id="Dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Paragraph Introduction
+  <p className="link dropdown" id="Dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <a href="#">Paragraph Introduction</a>
       </p>
         <div className="dropdown-menu" aria-labelledby="Dropdown">
           <p className="list">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -75,14 +98,15 @@ class Profile extends React.Component {
               <textarea id="textarea_field" className="nes-textarea">
                 Edit Paragraph
                   </textarea>
+                  <input type="submit" value="Save" />
                   </p>
                   </div>
                   </button>
 
 {/* education button drop down */}
 <button className="item dropdown">
-  <p className="link dropdown-toggle" id="Dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Education
+  <p className="link dropdown" id="Dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <a>Education</a>
       </p>
         <div className="dropdown-menu" aria-labelledby="Dropdown">
           <p className="list">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -90,14 +114,15 @@ class Profile extends React.Component {
               Textarea
                 </label>
               <textarea id="textarea_field" className="nes-textarea">Add Certifications and or Schools attended</textarea>
+              <input type="submit" value="Save" />
                 </p>
                 </div>
                 </button>
 
 {/* skills button drop down */}
 <button className="item dropdown">
-  <p className="link dropdown-toggle" id="Dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Skills
+  <p className="link dropdown" id="Dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <a>Skills</a>
       </p>
       <div className="dropdown-menu" aria-labelledby="Dropdown">
         <p className="list">
@@ -110,6 +135,7 @@ class Profile extends React.Component {
                   MongoDB:70%
                   <progress className="nes-progress is-success" value="70" max="100">
                     </progress>
+                    <input type="submit" value="Save" />
                     </p>
                     </div>
                     </button>
