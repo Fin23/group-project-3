@@ -16,7 +16,7 @@ const jobHC = [{
   jobTitle: 'Sitecore Architect',
   company: 'Perficient',
   city: 'Kansas City',
-  state: MO,
+  state: 'MO',
   summary: "Mentor and guide junior developers to help them grow their technical and consulting capabilities.You should also be a strong Sitecore developer who is…",
   link:
     '/pagead/clk?mo=r&ad=-6NYlbfkN0DW7tAlIQOkrs19C-punaLjCS_XqbLGSWQbN-7SZkwZEbg7z8uLO7TEJuZBxnrR2n3K1u8MiTuo5VcbhQy1o7qWTp0jc8UqLMVS_f5_I2AUdiaCTk4A8C-QzBeb6n0BTXwf3THwzu5j-YmfzK6bqdwIpZl-E7BAD8d3c41w1Yeas7CjbbYUVtoPBZMXUk-mnfew7N416LtyTHCwu3LyztqMJ_onNdd68T1o6LU0toqVEvsXfORpRB6KDiGPNMfAhrjj3NDXJxSORYnxIYG70pxDr5uSdY_iioxw8bog7xIv2mLbYZTidul4P2KhZQf_wLGRpE8nRTJipAvx21xXny0bLj9S3Rh8GFIaORvo9ozaQcaBPWFE8Rpxx7ioefOoOWvLxrVMyt7ll7yBv8vg1Rgdt3Xkg7KGuJgkf7MqqPF39c1qEliN3aZFphiTDcAoIuCYuyObYO-wBO2NIq_3b9Pswx704HbITFpHtSm17WbEAnJ7n5GY8-xThHonHQUKhVTigMlPRZTFrhJlmpxmh7Hdx0NFxK4g4YWxeaHH1mxklqUL93LRLNjxLg61p7VAsNxt1x5i1S1x8pDM8t-N7-9W6mRxgKbddP5St4nTBG-iET7H210VsNn5&p=0&fvj=0&vjs=3'
@@ -136,7 +136,7 @@ const JobSeed = [
 
 db.Jobs
   .remove({})
-  .then(() => db.Jobs.collection.insertMany(JobSeed))
+  .then(() => db.Jobs.collection.insertMany(jobHC))
   .then(data => {
     console.log(data.result.n + " records inserted!");
     process.exit(0);
