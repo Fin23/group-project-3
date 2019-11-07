@@ -1,7 +1,7 @@
 import React  from 'react';
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
 import '../css/navbar.css';
-import { StickyContainer, Sticky } from 'react-sticky';
+
 
 
 const NavBar = props =>{
@@ -29,7 +29,7 @@ className="navbar navbar-expand-lg navbar-light">
     <ul className="navbar-nav mr-auto">
 
       <li className="nav-item active">
-        <Link to ="/profile" className="nav-link">Home  Profile</Link> <span className="sr-only">(current)</span>
+        <Link to ="/main" className="nav-link">Home  Profile</Link> <span className="sr-only">(current)</span>
       </li>
 
 
@@ -43,6 +43,15 @@ className="navbar navbar-expand-lg navbar-light">
       <li className="nav-item">
       <Link to ="/aboutus" className="nav-link">The Creators</Link> <span className="sr-only">(current)</span>
       </li>
+      <li className="navbar-item">
+              <Link to="/" className="nav-link">Education</Link>
+            </li>
+            <li className="navbar-item">
+              <Link to="/create" className="nav-link">Create Eduction Log</Link>
+            </li>
+            <li className="navbar-item">
+              <Link to="/profile" className="nav-link"> Create Profile</Link>
+            </li>
 
 {/* drop down list for nav bar */}
       {/* <li className="nav-item dropdown">
