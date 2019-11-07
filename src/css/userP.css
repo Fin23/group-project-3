@@ -20,6 +20,126 @@
   /* margin-left:45%;
   margin-top:8%; */
 }
+
+
+@media only screen and  (max-width : 954px) {
+  /* Styles */
+  .pic{
+    height:45%;
+    width:36%;
+    border-radius: 50%;
+  }
+  .profilePic{
+    height:320px;
+    margin-top:-55px;
+  }
+  }
+@media only screen and  (max-width : 604px) {
+  /* Styles */
+  .pic{
+    height:25%;
+    width:36%;
+    border-radius: 50%;
+  }
+  .profilePic{
+    height:130px;
+    margin-top:-55px;
+  }
+  .contactInfo{
+    height:0px;
+    width:200px !important;
+    
+    border:;
+  }
+  input{
+    width:60%;
+    margin:7px;
+    
+  }
+  legend{
+    font-size: 0px;
+    width:30px;
+    
+  }
+  .contact-home{
+    margin-top:20%;
+    background-color:none;
+    font-size: 10px;
+  }
+  fieldset{
+    margin-left:-10px;
+    margin-top:110px;
+    height:90px;
+    float:right;
+
+   
+  }
+  .Name{
+    font-size: 10px;;
+  }
+  .Email{
+    font-size: 8px;
+  }
+  .nes-icon.is-large{
+ 
+transform: scale(2.5);
+
+margin-right:22px;
+
+
+  }
+  }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  /* Styles */
+  .pic{
+    height:25%;
+    width:36%;
+    border-radius: 50%;
+  }
+  .profilePic{
+    height:130px;
+    margin-top:-55px;
+  }
+  .contactInfo{
+    height:0px;
+    width:200px !important;
+    
+    border:;
+  }
+  input{
+    width:30%;
+    margin:7px;
+  }
+  legend{
+    font-size: 0px;
+    width:30px;
+    
+  }
+  .contact-home{
+    margin-top:20%;
+    background-color:none;
+
+  }
+  fieldset{
+    margin-left:-120px;
+    margin-top:120px;
+    height:100px;
+
+   
+  }
+  .Name{
+    border-bottom:bl;
+  }
+  .nes-icon.is-large{
+  
+transform: scale(2.2);
+margin-bottom:20px;
+margin-right:-65px;
+
+  }
+  }
 .nes-icon{
   margin-right:10px;
   margin-left:10px;
@@ -37,7 +157,7 @@
 }
 .contact-home {
 	color:white;
-	background-color:black;
+	/* background-color:black; */
     height: 50%;
     /* padding: 4px;
 	opacity: .8;
@@ -48,6 +168,13 @@
 	float:center;
 	margin-left: 70%;
 	margin-top:15%;
+}
+fieldset{
+  height:360px;
+  font-size: 13px;
+  margin-bottom: -8%;
+  /* margin-left:-120px */
+  
 }
 
 .App-logo {
@@ -104,16 +231,18 @@ color:white;
 background-color:#282c34;
 }
 .contactInfo {
-  object-fit: cover;
+  /* object-fit: cover; */
   color:white;
   background-color:black;
 width:310px;
 margin-left: 3%;
-margin-top: 3%;
+
 border-radius:5%;
 text-align: left;
 padding-left:8px;
 padding-bottom:8px;
+position: absolute;
+
 }
 .Name{
   border-bottom:solid skyblue;
@@ -332,4 +461,32 @@ button{
 }
 
 
+a{
+  color:black;
+}
 
+ML CSSResult
+EDIT ON
+body {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+a {
+  border-bottom: 1px solid #453886;
+  color: #453886;
+  padding-bottom: .25em;
+  text-decoration: none;
+}
+
+a:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-size: 20%;
+  border-bottom: 0;
+  padding-bottom: .66em;
+  text-decoration: none;
+}
