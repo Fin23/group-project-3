@@ -1,4 +1,9 @@
+.body {
+    
+}
+
 .about-row1 {
+    background-color: black;
 	width: 50%;
 	height:10%;
 	clear: both; /* Clear creates new styles for the next row */
@@ -11,7 +16,7 @@
 .about-hero-image-container {
     object-fit: cover;
 	height: 35%;
-	width:40%;
+	width:25%;
 	background-image:url("../images/darkbluebackground1.png");
 	margin-left: 5%;
 	margin-top: 3%;
@@ -47,7 +52,7 @@
 
 .aboutIcon{
     text-align: center;
-    padding: 30% 10%;
+    padding: 45% 0%;
     margin: 65px;
 
 }
@@ -55,3 +60,25 @@
     border-bottom:solid skyblue;
     margin-bottom:5px;
 }
+
+@media only screen and (max-width: 600px) {
+    .about-hero-image-container {
+    object-fit: cover;
+	height: 40%;
+	width:90%;
+	background-image:url("../images/darkbluebackground1.png");
+	margin-left: 5%;
+	margin-top: 3%;
+	border-radius:5%;
+	border:solid skyblue;
+
+}
+
+.aboutIcon{
+    text-align: center;
+    padding: 45% 0%;
+    margin: 65px;
+
+}
+}
+

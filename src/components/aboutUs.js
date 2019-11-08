@@ -36,10 +36,10 @@ class Profile extends React.Component {
         <div className="Name"> 
                   Name:Reese Borchers
                   </div>
-        <i className="nes-icon github is-large"></i>
-                      <i className="nes-icon linkedin is-large"></i>
-                        <i className="nes-icon instagram is-large"></i>
-                          <i className="nes-icon gmail is-large"></i>
+        <a href="https://github.com/FatherOfTheSun"> <i className="nes-icon github is-medium"></i> </a>
+        <a href="https://www.linkedin.com/in/reese-borchers-52071a175/"> <i className="nes-icon linkedin is-medium"> </i> </a>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=reeseborchers@gmail.com&su=SUBJECT&body=BODY"> <i className="nes-icon gmail is-medium"> </i></a>
+
                           </section>
           
             </div>
@@ -51,10 +51,10 @@ class Profile extends React.Component {
         <div className="Name"> 
                   Name:Joe Castillo
                   </div>
-        <i className="nes-icon github is-large"></i>
-                      <i className="nes-icon linkedin is-large"></i>
-                        <i className="nes-icon instagram is-large"></i>
-                          <i className="nes-icon gmail is-large"></i>
+        <a href="https://github.com/DaRican"> <i className="nes-icon github is-medium"></i> </a>
+        <a href="https://www.linkedin.com/in/joseph-castillo-569337155/"> <i className="nes-icon linkedin is-medium"> </i> </a>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=jcastillo8150@gmail.com&su=SUBJECT&body=BODY"> <i className="nes-icon gmail is-medium"> </i></a>
+
                           </section>
             </div>
             </div>
@@ -65,11 +65,10 @@ class Profile extends React.Component {
         <div className="Name"> 
                   Name:Ross Jameson
                   </div>
-        <i className="nes-icon github is-large"></i>
-                      <i className="nes-icon linkedin is-large"></i>
-                        <i className="nes-icon instagram is-large"></i>
-                          <i className="nes-icon gmail is-large"></i>
-                          </section>
+        <a href="https://github.com/Fin23"> <i className="nes-icon github is-medium"></i> </a>
+        <a href="https://www.linkedin.com/in/ross-jameson-891047186/"> <i className="nes-icon linkedin is-medium"> </i> </a>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=rossjameson1623@gmail.com&su=SUBJECT&body=BODY"> <i className="nes-icon gmail is-medium"> </i></a>
+                     </section>
             </div>
             </div>
 
@@ -79,28 +78,38 @@ class Profile extends React.Component {
         <div className="Name"> 
                   Name:Sam Tricamo 
                   </div>
-        <i className="nes-icon github is-large"></i>
-                      <i className="nes-icon linkedin is-large"></i>
-                        <i className="nes-icon instagram is-large"></i>
-                          <i className="nes-icon gmail is-large"></i>
+        <a href="https://github.com/samualtricamo"> <i className="nes-icon github is-medium"></i> </a>
+        <a href="https://www.linkedin.com/in/sam-tricamo-40480150/"> <i className="nes-icon linkedin is-medium"> </i> </a>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=samualtricamo@gmail.com&su=SUBJECT&body=BODY"> <i className="nes-icon gmail is-medium"> </i></a>
                           </section>
             </div>
             </div>
             
-            <div className="about-hero-image-container">
+        <div className="about-hero-image-container">
         <div className="about-pic">
         <section className="aboutIcon">
         <div className="Name"> 
                   Name:Peter Walker
                   </div>
-        <i className="nes-icon github is-large"></i>
-                      <i className="nes-icon linkedin is-large"></i>
-                        <i className="nes-icon instagram is-large"></i>
-                          <i className="nes-icon gmail is-large"></i>
-                          </section>
+        <a href="https://github.com/peteawalk"> <i className="nes-icon github is-medium"></i> </a>
+        <a href="https://www.linkedin.com/in/peteawalk/"> <i className="nes-icon linkedin is-medium"> </i> </a>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=pw0107@gmail.com&su=SUBJECT&body=BODY"> <i className="nes-icon gmail is-medium"> </i></a>
+                 </section>
             </div>
             </div>
 
+        <div className="about-hero-image-container">
+        <div className="about-pic">
+        <section className="aboutIcon">
+        <div className="Name"> 
+                  Name:You! We Are Hiring!
+                  </div>
+        <a href=""> <i className="nes-icon github is-medium"></i> </a>
+        <a href=""> <i className="nes-icon linkedin is-medium"> </i> </a>
+        <a href=""> <i className="nes-icon gmail is-medium"> </i></a>
+                 </section>
+            </div>
+            </div>
       
 {/* end of right column home div */}
 </div>
