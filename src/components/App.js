@@ -21,9 +21,9 @@ class App extends React.Component {
 
           {/* form input for job search */}
           <form className="form-inline my-2 my-lg-0">
-      <input id="key-word-input" className="form-control mr-sm-2" type="search" placeholder="Search by key word(s)" aria-label="Search" onSubmit={<Login />}/>
+      <input id="key-word-input" className="form-control mr-sm-2" type="search" placeholder="Search by key word(s)" aria-label="Search"/>
         
-      <input id="location-input" className="form-control mr-sm-2" type="search" placeholder=" KC Search by location" aria-label="Search" onDragEnter={<Login/>}/>
+      <input id="location-input" className="form-control mr-sm-2" type="search" placeholder=" KC Search by location" aria-label="Search"/>
       
     </form>
               {/* end of job search button */}
