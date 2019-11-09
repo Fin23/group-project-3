@@ -2,8 +2,13 @@ import React  from 'react';
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
 
 import '../css/navbar.css';
+<<<<<<< Updated upstream
 
 
+=======
+import { StickyContainer, Sticky } from 'react-sticky';
+import { useMediaQuery } from 'react-responsive'
+>>>>>>> Stashed changes
 
 const NavBar = props =>{
     console.log('NavBar - Rendered');

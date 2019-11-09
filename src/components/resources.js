@@ -5,7 +5,7 @@ import NavBar from './navbar';
 
 
 import '../css/App.css';
-
+import { useMediaQuery } from 'react-responsive'
 class Resources extends React.Component {
 
 
