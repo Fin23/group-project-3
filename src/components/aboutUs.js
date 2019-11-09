@@ -5,12 +5,6 @@ import NavBar from './navbar';
 import '../css/aboutUs.css';
 
 
-<<<<<<< Updated upstream
-=======
-import { useMediaQuery } from 'react-responsive'
-
-class AboutUs extends React.Component {
->>>>>>> Stashed changes
 
 
 class Profile extends React.Component {
