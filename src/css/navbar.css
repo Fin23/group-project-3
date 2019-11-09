@@ -2,6 +2,7 @@
 
 nav{
     background-color: skyblue;
+    height:60px;
     font-family:'Press Start 2P', cursive;
     font-size: 10px;
     /* position: -webkit-sticky;

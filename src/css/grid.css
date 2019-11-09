@@ -97,6 +97,7 @@
 	border-radius:5%;
 	border:solid skyblue;
 }
+
 .content-image img {
     object-fit: cover;
     width: 100%;
