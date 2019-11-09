@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import DatePicker from 'react-datepicker';
 import "react-datepicker/dist/react-datepicker.css";
-import EducationList from './education-list.component';
+;
 
 export default class EditEducation extends Component {
 
@@ -113,7 +113,7 @@ axios.post('http://localhost:5000/education/update'+this.props.match.params.id, 
     render(){
         return (
             <div>
-                
+                {/* <NavBar/> */}
                 <h3>Edit Education log</h3>
                 <form onSubmit={this.onSubmit}>
                 <div className="form-group">

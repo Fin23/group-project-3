@@ -16,7 +16,20 @@ if (process.env.NODE_ENV === "production") {
 app.use(routes);
 
 // Connect to the Mongo DB
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/joblistings");
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/joblistings",  { useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true});
+
+
+
+
+// code below pulled from back end server but seems to work here as well 
+const connection = mongoose.connection;
+connection.once('open',() => {
+  console.log("MongoDB database connection established successfully");
+});
+
+
+
+
 
 // Start the API server
 app.listen(PORT, function() {

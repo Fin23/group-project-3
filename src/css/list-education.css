@@ -4,3 +4,6 @@ body{
 tbody{
     background-color:white !important;
 }
+.form-control{
+    width:100%;
+}

@@ -8,6 +8,14 @@
 .App-logo {
   height: 40vmin;
 }
+#location-input{
+  width:300px;
+height:45px;
+}
+#key-word-input{
+  width:300px;
+  height:45px;
+}
 
 .App-header {
   background-color: #282c34;

@@ -12,10 +12,10 @@ import './css/index.css';
 import App from './components/App';
 
 import Resources from './components/resources';
-import Jobs from './components/jobs';
+import Jobs from './components/jobs-list.component';
 import AboutUs from './components/aboutUs';
 
-import NavBar from "./components/navbar"
+
 import EducationList from "./components/education-list.component";
 import EditEducation from "./components/edit-education.component";
 import CreateEducation from "./components/create-education.component";
@@ -30,20 +30,19 @@ const routing = (
     <Router>
       <div>
         <Route exact path="/" component={App} />
-        {/* <Route path="/profile" component={Profile} /> */}
         <Route path="/resources" component={Resources} />
         <Route path="/jobs" component={Jobs} />
         <Route path="/aboutUs" component={AboutUs} />
         <Route path="/" exact component={EducationList}/>
-  <Route path="/edit/:id"  component={EditEducation}/>
-  <Route path="/create"  component={CreateEducation}/>
-  <Route path="/profile"  component={CreateProfile}/>
-  <Route path="/main"  component={MainProfile}/>
+        <Route path="/edit/:id"  component={EditEducation}/>
+        <Route path="/create"  component={CreateEducation}/>
+        <Route path="/profile"  component={CreateProfile}/>
+        <Route path="/main"  component={MainProfile}/>
       </div>
     </Router>
   )
 
-{/* <App /> */}
+
 
 ReactDOM.render(routing, document.getElementById('root'));
 

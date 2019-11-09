@@ -7,7 +7,7 @@ let Education = require('../models/education.model');
 // looks for the schools/education
 router.route('/').get((req, res) =>{
     Education.find()
-    .then(degrees => res.json(degrees))
+    .then(educations => res.json(educations))
     .catch(err => res.status(400).json('Error: ' + err));
 });
 

@@ -1,5 +1,6 @@
 import React  from 'react';
-import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
+import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
+
 import '../css/navbar.css';
 
 
@@ -46,12 +47,12 @@ className="navbar navbar-expand-lg navbar-light">
       <li className="navbar-item">
               <Link to="/" className="nav-link">Education</Link>
             </li>
-            <li className="navbar-item">
+            {/* <li className="navbar-item">
               <Link to="/create" className="nav-link">Create Eduction Log</Link>
             </li>
             <li className="navbar-item">
               <Link to="/profile" className="nav-link"> Create Profile</Link>
-            </li>
+            </li> */}
 
 {/* drop down list for nav bar */}
       {/* <li className="nav-item dropdown">

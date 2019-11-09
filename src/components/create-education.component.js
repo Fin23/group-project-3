@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import DatePicker from 'react-datepicker';
 import "react-datepicker/dist/react-datepicker.css";
-import EducationList from './education-list.component'
-import CreateProfile from './create-profile.component'
+
 import '../css/userP.css';
 import '../css/grid.css';
+import Nav from '../components/Nav';
 
 export default class CreateEducation extends Component {
 
@@ -92,7 +92,7 @@ onSubmit(e){
         duration: this.state.duration,
         startDate: this.state.startDate,
         yearGraduated: this.state.yearGraduated
-    }
+    };
     console.log(education);
 // putting the axios request inside the submit button so they work together 
 axios.post('http://localhost:5000/education/add', education )
@@ -105,8 +105,9 @@ axios.post('http://localhost:5000/education/add', education )
     render(){
         return (
             <div>
-                <CreateProfile/>
-                <h3>Create New Education log</h3>
+                 <Nav/>
+                {/* <CreateProfile/> */}
+                <h3>Create New Education list</h3>
                 <form onSubmit={this.onSubmit}>
                 <div className="form-group">
                     <label>Username: </label>
@@ -169,7 +170,7 @@ axios.post('http://localhost:5000/education/add', education )
                 <input type="submit" value="create education log" className="btn btn-primary" />
             </div>
             </form>
-            <EducationList/>
+            {/* <EducationList/> */}
             </div>
         )
     }

@@ -34,12 +34,14 @@ connection.once('open',() => {
 const educationRouter = require('./routes/education');
 const profileRouter = require('./routes/profile');
 const skillsRouter = require('./routes/skills');
+const jobsRouter = require('./routes/jobs.backend');
 
 
 // using the files router is directing the user to the search for file 
 app.use('/education', educationRouter);
 app.use('/profile', profileRouter);
 app.use('/skills', skillsRouter);
+app.use('/jobs', jobsRouter);
 
 // this actually starts the server listens on port
 app.listen(port, () => {
