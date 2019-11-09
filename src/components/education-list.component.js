@@ -3,9 +3,14 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 import '../css/list-education.css';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+
 // this is the second component that is a functional react component it is different than a class component because it does not have a state or a life cycle methods no did mount method if you just need to accept props and return jsx use a functional component most components should be in there own file unless they are small enough like below
 const Education = props => (
+    <table> 
     <tr>
+        
         <td>{props.education.username}</td>
         <td>{props.education.school}</td>
         <td>{props.education.duration}</td>
@@ -14,7 +19,9 @@ const Education = props => (
         <td>
             <Link to ={"/edit/"+props.education._id}>edit</Link> | <a href="#" onClick={() => { props.deleteEducation(props.education._id)}}>delete</a>
         </td>
+       
     </tr>
+    </table>
 )
 
 
@@ -58,17 +65,19 @@ educationList(){
     render(){
         return (
             <div>
+               
                <h3>Logged Education</h3>
                <table className="table">
                    <thread className="thead-light">
                        <tr>
+                           <tbody> 
                            <th>Username</th>
                            <th>School</th>
                            <th>Duration</th>
                            <th>Start Date</th>
                            <th>Graduation</th>
                            <th>Actions</th>
-                           
+                           </tbody>
                        </tr>
                    </thread>
                    <tbody>

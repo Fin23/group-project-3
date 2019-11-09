@@ -1,5 +1,3 @@
-
-
 // need express route because this is a route we are creating
 const router = require ('express').Router();
 // require the mongoose model we created
@@ -18,8 +16,14 @@ router.route('/').get((req,res) => {
 // second route handles post requests 
 router.route('/add').post((req, res) => {
     const username = req.body.username;
+    const email = req.body.email;
+    const password = req.body.password;
 
-    const newProfile = new Profile({username});
+    const newProfile = new Profile({
+        username,
+        email,
+        password,
+    });
 
     newProfile.save()
         .then(() => res.json('Profile added!'))
