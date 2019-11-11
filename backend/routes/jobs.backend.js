@@ -42,6 +42,19 @@ router.route('/:id').delete((req, res) =>{
     .catch(err => res.status(400).json('Error: ' + err));
 });
 
+// Job.create(req.params.id)
+router.route('/create/:id').post((req, res)=>{
+    Job.create(req.body)
+    .then(() => res.json('Job created.'))
+    .catch(err => res.status(400).json('Error: ' + err));
+});
+// create: function (req, res) {
+//     db.Jobs
+//       .create(req.body)
+//       .then(dbModel => res.json(dbModel))
+//       .catch(err => res.status(422).json(err));
+//   },
+
 router.route('/update/:id').post((req, res) =>{
     Job.findById(req.params.id)
     .then(job => {

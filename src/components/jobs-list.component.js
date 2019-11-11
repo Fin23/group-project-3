@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import NavBar from './navbar';
 
+
 const Job = props => (
     <table> 
     <tr>
@@ -32,6 +33,8 @@ export default class JobList extends Component {
         this.state = {jobs: []};
     }
 
+
+
     componentDidMount(){
         axios.get('http://localhost:5000/jobs/')
         .then(response => {
@@ -41,6 +44,22 @@ export default class JobList extends Component {
             console.log(error);
         });
     }
+
+// loadJobs = () =>{
+//     API.getJobs()
+//     .then(response => {
+//         this.setState({jobs: response.data});
+//     })
+//     .catch((error) =>{
+//         console.log(error);
+//     });
+// }
+ 
+
+
+
+
+
 
     deleteJob(id){
         axios.delete('http://localhost:5000/jobs/'+id)
