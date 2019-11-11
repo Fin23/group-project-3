@@ -7,27 +7,27 @@ var JobSchema = new Schema({
   // `title` is required and of type String
   jobtitle: {
     type: String,
-    required: true
+    required: false
   },
   companyArray: {
     type: String,
-    required: true
+    required: false
   },
   city: {
     type: String,
-    required: true
+    required: false
   },
   state: {
     type: String,
-    required: true
+    required: false
   },
   summary: {
     type: String,
-    required: true
+    required: false
   },
   link: {
     type: String,
-    required: true
+    required: false
   }
 });
 

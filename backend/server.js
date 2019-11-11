@@ -39,6 +39,7 @@ const educationRouter = require('./routes/education');
 const profileRouter = require('./routes/profile');
 const skillsRouter = require('./routes/skills');
 const jobsRouter = require('./routes/jobs.backend');
+// const jobsRouter = require('./routes/jobs.backend');
 
 
 // using the files router is directing the user to the search for file 
