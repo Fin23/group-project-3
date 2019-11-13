@@ -21,7 +21,7 @@ axios
     var $ = cheerio.load(response.data);
 
     // Make an empty array for saving our scraped info
-    var results = {};
+    var results = []
 
     //Use Cheerio and search through each div with class of "result"
     $("div.result").each(function(i, element) {
@@ -57,22 +57,27 @@ axios
 
       //Push the Job main info into results array
 
-      // results.push({
-      //   jobtitle: jobtitle.,
-      //   companyArray: companyArray,
-      //   city: city,
-      //   state: state,
-      //   summary: summary,
-      //   link: link
-      // });
+      results.push({
+        jobtitle: results.jobtitle.body,
+        companyArray: results.companyArray.body,
+        city: results.city.body,
+        state: results.state.body,
+        summary: results.summary.body,
+        link: results.link.body
+      });
+     
     });
 
     // After looping through each element found, log the results to the console
 
-    console.log(results);
+   
     Job.create(results)
-      .then(function(dbJobs) {})
+      .then(function(dbJobs) {
+        
+      })
       .catch(function(err) {
         console.log(err);
+       
       });
+      console.log(results);
   });
