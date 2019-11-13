@@ -20,7 +20,6 @@
   /* margin-left:45%;
   margin-top:8%; */
 }
-<<<<<<< Updated upstream
 
 
 @media only screen and  (max-width : 954px) {
@@ -140,22 +139,6 @@ margin-right:-65px;
 
   }
   }
-=======
-@media(max-width : 1000px){
-	.pic{
-		width : 250px;
-		height : 250px;
-		border-radius: 50%;
-	}
-}
-@media(max-width : 1000px){
-	.profilePic{
-		width : 250px;
-		height : 350px;
-		border-radius: 50%;
-	}
-}
->>>>>>> Stashed changes
 .nes-icon{
   margin-right:10px;
   margin-left:10px;

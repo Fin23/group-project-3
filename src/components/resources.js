@@ -14,6 +14,7 @@ class Resources extends React.Component {
     return (
       <div className="App">
         <NavBar />
+        <h1> create learning recourses </h1>
       </div>
   );
   }
