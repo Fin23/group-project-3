@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+form{
+  text-align: left;
+  color: white;
+  background-color: #282c34;
+}
+.form-control {
+    background: whitesmoke;
+    width: 20%;
+}
