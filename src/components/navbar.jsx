@@ -2,7 +2,7 @@ import React  from 'react';
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
 import '../css/navbar.css';
 
-
+import Login from './oauth';
 
 const NavBar = props =>{
     console.log('NavBar - Rendered');
@@ -70,7 +70,7 @@ className="navbar navbar-expand-lg navbar-light">
 
     </ul>
 
-    
+    <Login />
   </div>
 
   
