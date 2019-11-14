@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
 // import logo from './logo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './navbar';
@@ -27,7 +28,13 @@ class App extends React.Component {
           <br></br>
           <img src={pancake} className="App-logo" alt="pancake" />
 <br></br>
-          {/* form input for job search */}
+
+
+
+<button className="btn-secondary">  
+      <Link to ="/jobs" >Job Search</Link> 
+       </button>
+          {/* form input for job search
           <form className="form-inline my-2 my-lg-0">
       <input id="key-word-input" className="form-control mr-sm-2" type="search" placeholder="Search by key word(s)" aria-label="Search"/>
         
@@ -35,7 +42,7 @@ class App extends React.Component {
       <div className="form-group">
                             <input type="submit" value="Search" className="btn btn-primary" />
                         </div>
-    </form>
+    </form> */}
               {/* end of job search button */}
           <p>
             the  one stop shop for new developers trying to break into the industry in Kansas City 
