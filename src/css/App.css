@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
 
-
 .App {
   text-align: center;
+  background-color: #282c34;
+}
+html{
+  background-color: #282c34;
 }
 
 .App-logo {
@@ -39,3 +42,49 @@ height:45px;
   width: 100px;
 
 }
+
+.projectRow {
+	width: 90%;
+	height:100px;
+  background-color: #282c34;
+	opacity:90%;
+	clear: both; /* Clear creates new styles for the next row */
+	padding: 0px;
+	margin: 0px;
+}
+
+.background{
+  background-color: #282c34;
+}
+* {
+  box-sizing: border-box;
+  
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .colomn {
+	  text-align: center;
+	float: left;
+	width: 30%;
+	margin:10px;
+	padding: 10px;
+	height: 300px; /* Should be removed. Only for demonstration */
+  }
+  .colomn1 {
+	  text-align: center;
+	float: left;
+  width: 65%;
+  background-color: #282c34;
+	/* margin:10px; */
+	/* padding: 10px; */
+	/* height: 300px; Should be removed. Only for demonstration */
+  }
+  .colomn2 {
+	  text-align: center;
+	float: right;
+  width: 20%;
+  background-color: #282c34;
+	/* margin:10px; */
+	/* padding: 10px; */
+	/* height: 300px; Should be removed. Only for demonstration */
+  }
