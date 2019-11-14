@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import Nav from '../components/Nav';
 
 
 export default class CreateProfile extends Component {
@@ -68,7 +69,7 @@ onSubmit(e){
     render(){
         return (
             <div>
-                {/* <NavBar/> */}
+                <Nav/>
                 <h5>Create new user
 
                 </h5>
