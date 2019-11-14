@@ -5,7 +5,7 @@ var Schema = mongoose.Schema;
 
 var JobSchema = new Schema({
   // `title` is required and of type String
-  jobtitle: {
+  jobTitle: {
     type: String,
     required: false
   },

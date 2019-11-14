@@ -6,31 +6,52 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 // currently has a single field which is user name, which has validations
-const profileSchema = new Schema ({
-    username:{
+const profileSchema = new Schema({
+    username: {
         type: String,
-        required:true,
-        unique:true,
-        trim:true,
+        required: true,
+        unique: true,
+        trim: true,
         minlength: 3
     },
-    email:{
+    firstName: {
         type: String,
-        required:true,
-        unique:true,
-        trim:true,
+        required: true,
+        unique: true,
+        trim: true,
         minlength: 3
     },
-    password:{
+    lastName: {
         type: String,
-        required:true,
-        unique:true,
-        trim:true,
+        required: true,
+        unique: true,
+        trim: true,
         minlength: 3
     },
+    email: {
+        type: String,
+        required: true,
+        unique: true,
+        trim: true,
+        minlength: 3
+    },
+    password: {
+        type: String,
+        required: true,
+        unique: true,
+        trim: true,
+        minlength: 3
+    },
+    doubleCheckPW: {
+        type: String,
+        required: true,
+        unique: true,
+        trim: true,
+        minlength: 3
+    }
 }, {
-    timestamps:true,
-});
+        timestamps: true,
+    });
 
 const Profile = mongoose.model('Profile', profileSchema);
 
