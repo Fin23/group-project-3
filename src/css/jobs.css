@@ -1,0 +1,48 @@
+thead{
+    background-color: #282c34;
+}
+
+.headerJob{
+    width:10%;
+    background-color: #282c34;
+
+}
+.headerCompany{
+    width:10%;
+
+}
+.headerCity{
+    width:9%;
+
+}
+.headerState{
+    width:8.5%;
+
+}
+.headerSummary{
+    width:8.5%;
+
+}
+.headerLink{
+    width:10%;
+
+}
+#job{
+    width: 10%;
+}
+#company{
+    width: 14%;
+}
+#city{
+    width: 12%;
+}
+#state{
+    width: 8.5%;
+}
+#summary{
+    width: 12%;
+    height: 10%;
+}
+#link{
+    width: 10%;
+}
