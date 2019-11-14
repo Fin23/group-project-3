@@ -20,11 +20,11 @@ class App extends React.Component {
       <div className="App">
         <NavBar />
         <header className="App-header">
-          <p>
+          <h1>
           Welcome to StaKC,
-          </p>
+          </h1>
           <br></br> 
-          <Login />
+         
           <br></br>
           <img src={pancake} className="App-logo" alt="pancake" />
 <br></br>
@@ -34,6 +34,7 @@ class App extends React.Component {
 <button className="btn-secondary">  
       <Link to ="/jobs" >Job Search</Link> 
        </button>
+       <br></br>
           {/* form input for job search
           <form className="form-inline my-2 my-lg-0">
       <input id="key-word-input" className="form-control mr-sm-2" type="search" placeholder="Search by key word(s)" aria-label="Search"/>
@@ -45,9 +46,9 @@ class App extends React.Component {
     </form> */}
               {/* end of job search button */}
           <p>
-            the  one stop shop for new developers trying to break into the industry in Kansas City 
+            The KC job application created by junior developers, for junior developers
           </p>
-          <a className="App-link"
+          {/* <a className="App-link"
             href="https://reactjs.org"
             target="_blank"
             rel="noopener noreferrer">
@@ -55,7 +56,7 @@ class App extends React.Component {
          
 
          
-          </a>
+          </a> */}
         </header>
 
   
