@@ -49,9 +49,9 @@ className="navbar navbar-expand-lg navbar-light">
             <li className="navbar-item">
               <Link to="/create" className="nav-link">Create Eduction Log</Link>
             </li>
-            <li className="navbar-item">
+            {/* <li className="navbar-item">
               <Link to="/profile" className="nav-link"> Create Profile</Link>
-            </li>
+            </li> */}
 
 {/* drop down list for nav bar */}
       {/* <li className="nav-item dropdown">

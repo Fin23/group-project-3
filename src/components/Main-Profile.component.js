@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
@@ -68,8 +68,8 @@ render(){
               {/* <fieldset> */}
    
                   {/* <form action="/action_page.php" /> */}
-               
-                  <CreateProfile/>
+               <button className="btn-secondary"><Link to="/profile" className="nav-link"> Create Profile</Link></button>
+                  {/* <CreateProfile/> */}
                
                   {/* <AddEmail/> */}
                   <a href="https://github.com/Fin23/group-project-3">  
