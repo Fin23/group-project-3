@@ -494,3 +494,10 @@ a:hover {
   padding-bottom: .66em;
   text-decoration: none;
 }
+.btn-secondary{
+  height:91px;
+  font-size: 2em;
+  margin-bottom:2%;
+  background-color:skyblue;
+  border-radius:5%;
+}
