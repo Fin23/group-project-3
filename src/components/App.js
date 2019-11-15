@@ -21,7 +21,7 @@ class App extends React.Component {
         <NavBar />
         <header className="App-header">
           <h1>
-          Welcome to StaKC,
+          Welcome to StaKC
           </h1>
           <br></br> 
          
