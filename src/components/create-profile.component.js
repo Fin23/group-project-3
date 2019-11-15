@@ -69,7 +69,7 @@ onSubmit(e){
     render(){
         return (
             <div>
-                <Nav/>
+                {/* <Nav/> */}
                 <h5>Create new user
 
                 </h5>
