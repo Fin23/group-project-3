@@ -6,7 +6,7 @@ import pancake from '../images/8bitPC.jpg';
 import Login from './oauth';
 
 import '../css/App.css';
-
+import '../css/Resources.css';
 import UpVote from './UpVote.component';
 class Resources extends React.Component {
 
