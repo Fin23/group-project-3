@@ -5,6 +5,7 @@ import NavBar from './navbar';
 import pancake from '../images/8bitPC.jpg'; 
 import Login from './oauth';
 
+import '../css/resources.css';
 import '../css/App.css';
 
 import UpVote from './UpVote.component';
